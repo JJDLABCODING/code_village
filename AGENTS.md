@@ -22,3 +22,15 @@
 - 구현 코드, 게임 엔진, 패키지 관리자, 빌드 및 테스트 명령은 아직 정해지지 않았다. 도구나 명령을 추측해서 기록하지 않는다.
 - 기술 스택을 도입하면 실제 디렉터리 구조와 설치·실행·검증 명령을 `AGENT.md`에 갱신한다.
 - 코드 변경 후에는 해당 변경에 적합한 검증을 수행하고, 실행하지 못한 검증은 명시한다.
+
+## Coding Style & Naming Conventions
+
+Follow the conventions of the chosen language and framework, and use the project's formatter or linter once configured. Prefer descriptive names and small modules that make game behavior and block actions easy for student contributors to understand. Use consistent English identifiers in code; write player-facing Korean text in the project's chosen localization/content files rather than scattering it through logic.
+
+## Testing Guidelines
+
+No test framework or coverage requirement is configured yet. Add tests alongside the first implemented features, name them to identify the behavior under test, and record the command needed to run them here. Verify gameplay changes in the relevant local run workflow once one exists.
+
+## Commit & Pull Request Guidelines
+
+Write detailed commit messages in Korean, as requested in `프로젝트설명.md`. State the change and its purpose; for example: `마을 주민의 농사 블록 동작 추가 — 지정된 구역에서 작물을 재배하도록 구현`. Pull requests should summarize the gameplay or tooling change, include test or manual verification results, link related issues when available, and attach screenshots or a short recording for visible UI/gameplay changes.
