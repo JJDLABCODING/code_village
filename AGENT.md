@@ -21,3 +21,7 @@
 ## PowerShell에서 문서 읽기
 
 - `Get-Content -LiteralPath '프로젝트설명.md' -Raw -Encoding UTF8`로 한국어 기획 문서를 읽는다.
+
+## 블록 조립
+
+- 블록 조립 규칙은 `코드/블럭/block_rules.md`에 기록한다.
